@@ -1,7 +1,4 @@
-import json
 from typing import List
-from bs4 import BeautifulSoup
-import requests
 import random
 
 def search_recursive(array: List, left: int = None, right: int = None) -> int:
